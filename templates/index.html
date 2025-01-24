@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="..\static\css\style_1.css">
     <title>Dhanurdhar</title>
 </head>
-<body>
-    <main class="h-screen w-[100%] sm:bg-black text-white block sm:flex sm:flex-row ">
-        <div id="nav-bar1" class="sm:hidden h-[48px] w-[84%] rounded-[10px] fixed left-[8%] top-[25px] flex justify-around items-center">
+<body class="h-auto lg:h-screen w-[100%] overflow-y-scroll lg:overflow-y-hidden">
+    <main class="h-full w-[100%] bg-black text-white block lg:flex lg:flex-row ">
+        <div id="nav-bar1" class="lg:hidden h-[48px] md:h-[60px] w-[84%] rounded-[10px] fixed left-[8%] top-[25px] flex justify-around items-center">
             <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                 <i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
             </div>
@@ -27,74 +27,67 @@
                 <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
             </div>
         </div>
-        <div id="left-main" class=" flex pt-[50px] sm:block justify-center items-center h-[600px] sm:h-[100%] w-[100%] sm:w-[35%]">
-            <div id="box" class="h-[80%] w-[80%] sm:w-[65%] rounded-[10px] sm:sticky sm:top-[15%] sm:left-[10%] flex flex-col">
-                <div id="upper-box" class="h-[50%] w-full rounded-[10px] flex items-end justify-center">
-                    <img src="..\static\images\my_photo.jpg" class="h-[90%] w-[70%] rounded-[10px]" alt="">
+        <div id="left-main" class=" flex pt-[50px] md:block justify-center items-center h-[600px] md:h-[800px] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[35%]">
+            <div id="box" class="h-[90%] w-[80%] md:w-[95%] lg:w-[70%] rounded-[10px] sticky md:top-[15%] md:left-[2.5%] lg:left-[10%] flex flex-col">
+                <div id="upper-box" class="h-[50%] md:h-[60%] w-full rounded-[10px] flex items-end justify-center">
+                    <img src="..\static\images\my.png" class="h-[90%] w-[70%] md:w-[50%] lg-[70%] xl:w-[70%] rounded-[20px]" alt="">
                 </div>
-                <div id="lower-box" class="h-[50%] w-full rounded-[10px] text-center">
-                    <div id="detail-box" class="h-[60%] sm:h-[50%] w-full flex flex-col items-center">
-                        <b class="text-[24px] pt-[10px] ">Dhanurdhar Sharma</b>
+                <div id="lower-box" class="h-[50%] md:h-[40%] lg:h-[50%] w-full rounded-[10px] text-center">
+                    <div id="detail-box" class="h-[60%] w-full flex flex-col items-center">
+                        <b class="text-[24px] md:text-[28px] pt-[10px] ">Dhanurdhar Sharma</b>
                         <p>Software Engineer | Web Developer <br> Jaipur,Rajasthan, India
                         </p>
-                        <div id="social-box" class="h-[35%] w-[70%] flex justify-around pt-[20px]">
+                        <div id="social-box" class="h-[35%] w-[70%] md:w-[50%] flex justify-around pt-[20px]">
                             <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></a>
                             <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
                             <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff;"></i></a>
                             <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i></a>
                         </div>
                     </div> 
+                    <div id="resume-section" class="h-[40%] w-full flex items-center justify-center">
+                        <a id="resume-button" href="#" class="h-[50%] w-[70%] flex items-center justify-center rounded-[15px] text-[20px]">Download Resume</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="right-main" class="text-center h-auto bg-pink-900 sm:h-[100%] w-[100%] sm:w-[65%] sm:overflow-y-scroll">
-            <div id="nav-bar" class="hidden sm:flex  h-[50px] w-[360px] rounded-[10px] sticky left-[10%] top-[25px] justify-around items-center">
-                <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+        <div id="right-main" class="text-center h-auto  md:h-[100%] w-[100%] lg:w-[65%] lg:overflow-y-scroll">
+            <div id="nav-bar" class="hidden md:hidden lg:flex  h-[50px] w-[360px] rounded-[10px] sticky left-[10%] top-[25px] justify-around items-center">
+                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                     <i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
                 </div>
-              <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+              <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                     <i class="fa-brands fa-google-scholar fa-xl" style="color: #ffffff;"></i>
                 </div>
-                <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                     <i class="fa-solid fa-wrench fa-xl" style="color: #ffffff;"></i>
                 </div>
-                <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                     <i class="fa-solid fa-briefcase fa-xl" style="color: #fcfcfd;"></i>
                 </div>
-                <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
                     <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
                 </div>
             </div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A modi nam optio quisquam saepe, autem quo placeat expedita. Doloremque cumque maiores eum modi quidem, optio enim accusantium officia animi id.
-            Est libero voluptate ea sed nam vel repudiandae aspernatur, delectus inventore ut at veniam voluptatum facilis, eaque id tenetur non blanditiis illum. Eveniet accusantium non est alias obcaecati nihil possimus!
-            Quod repellendus, est natus molestias corrupti consectetur provident facilis nemo odio libero fugiat necessitatibus, culpa quae! Iste ex repellat dolore impedit cumque, neque asperiores nemo qui sequi rem pariatur laboriosam!
-            Mollitia eum odit tempore ipsum nemo aspernatur quaerat praesentium sed exercitationem, perspiciatis eaque a facilis id rerum quae ut repudiandae placeat, perferendis odio adipisci quo beatae recusandae. Hic, enim odio.
-            Dolorem consequatur, error cupiditate qui architecto illo et maiores aliquid voluptas ad sint alias temporibus quos non pariatur. Animi quibusdam harum voluptatem mollitia illum enim numquam, obcaecati culpa excepturi magni.
-            Animi sint adipisci incidunt. Sapiente, error accusamus. Dolorum quos dolores minus ipsam doloremque repudiandae ipsum eius fugiat esse velit cum officia quo dolorem blanditiis alias vel odit quia, cumque consequatur!
-            Iure assumenda minus illum perferendis eveniet earum perspiciatis deleniti sint, recusandae, distinctio voluptas explicabo sapiente iusto sequi dolorum tempore voluptatem obcaecati corporis, consequatur repellat consectetur ex quia veritatis illo. Officia?
-            Harum, non! Vel rerum ipsum, numquam sit maxime harum. Quod ducimus corrupti animi culpa! Distinctio deleniti asperiores at minus hic sit quidem ullam tenetur, molestias sequi, eum, voluptate atque nam.
-            Dignissimos quasi error placeat, officiis itaque nihil facilis, delectus minus magni tempore alias? Harum magni error impedit sunt assumenda tempore pariatur perferendis quam eius recusandae voluptatum aliquid laudantium, non dicta!
-            Reprehenderit, laudantium. Nobis laudantium accusantium sed velit facere vel aperiam mollitia consequatur, molestiae necessitatibus, perspiciatis amet libero hic iusto pariatur. Quam quas modi consequuntur ex illo esse cumque eius est.
-            Quo optio excepturi illum dicta totam nisi temporibus commodi, explicabo dolores tenetur suscipit nostrum, tempore sit praesentium est harum maiores incidunt voluptatem et ad sed officia modi sint neque. Vitae!
-            Pariatur aliquam voluptatibus voluptas eum necessitatibus enim aperiam quia deserunt eos numquam minima aut iusto reprehenderit expedita vitae deleniti error amet harum molestias facilis voluptate autem, laudantium excepturi nobis? Cum.
-            Rerum officia debitis velit fugiat. Enim, voluptas dolore ut debitis ab fugit a labore commodi quae dolorem. Voluptas, deleniti, est aperiam harum ab nobis nihil autem voluptate, corrupti natus esse!
-            Laboriosam accusantium praesentium tenetur. Explicabo consequuntur corrupti sapiente iste nam voluptatum quasi, illo atque, doloremque nesciunt ipsum voluptates eius, ea sint cum enim expedita ex excepturi! Excepturi asperiores animi nam!
-            Quam itaque nemo, deserunt ex unde doloribus maiores ad omnis hic pariatur et aliquid iste, perspiciatis aliquam? Quae, doloremque sequi deserunt, consequuntur dolor, quisquam consectetur labore molestiae vero nemo quidem!
-            Neque, beatae aut? Deleniti modi dolorum molestias consequatur deserunt iusto ducimus nihil, quidem, ratione maxime non obcaecati. Accusantium delectus voluptatem corrupti aliquam sunt, saepe, commodi qui cumque nam, architecto hic.
-            Ratione distinctio libero reiciendis officiis adipisci quo nemo minus dolor blanditiis asperiores et nulla harum provident quisquam dolorum architecto odio, ea est dolorem assumenda numquam! Odit cupiditate beatae rerum necessitatibus.
-            Facere dolorem voluptas natus nesciunt. Libero distinctio nisi nobis pariatur, accusamus numquam nulla ex! Blanditiis distinctio architecto facere. Dicta officiis laudantium ab perferendis commodi a vitae vero eos, animi deserunt.
-            Explicabo quis autem quaerat dicta aperiam dolor similique nulla iure quia voluptatum ad molestias porro officia pariatur, soluta dolores magni esse eius, deleniti optio. Neque vero soluta totam quaerat incidunt.
-            Ab vitae asperiores fuga dolore magnam expedita quia tenetur accusamus officiis deleniti ipsa, molestiae odio dolorum, consequatur laborum debitis pariatur harum beatae hic tempora ad cumque, repellat velit. Itaque, necessitatibus.
-            Veniam ea molestiae reiciendis nam necessitatibus saepe, rem animi reprehenderit perferendis libero consequuntur aliquid deleniti dignissimos eligendi dolore suscipit dicta neque aut non cum delectus? Porro atque minima delectus quas!
-            Voluptate enim debitis delectus ad hic atque placeat asperiores perferendis ducimus fugit! Voluptas eaque, explicabo animi quod culpa, officiis fuga corrupti laudantium nesciunt aspernatur doloremque debitis, commodi odit ipsam accusamus!
-            Veritatis in facere quos exercitationem corrupti vero delectus incidunt ipsam sapiente quidem excepturi consequuntur assumenda cumque repudiandae animi, ratione deserunt quasi nihil. Repellendus expedita saepe deserunt quaerat, suscipit quidem omnis?
-            Nihil consequuntur temporibus fugit a modi. Tempore hic commodi recusandae? Ad, iusto? Debitis ratione reiciendis laborum, fugiat consectetur minus? Voluptate, labore. Suscipit dolorem deleniti, molestiae omnis vero unde reiciendis eum.
-            Expedita amet eaque accusamus magnam rerum consequatur animi voluptates blanditiis error nostrum laboriosam asperiores maiores iste at neque dolor pariatur impedit, nihil qui exercitationem rem, eligendi vero suscipit nisi! Consectetur.
-            Corrupti perspiciatis molestias laboriosam? Accusantium nulla, dolores maiores ullam rerum odio eaque sed cupiditate architecto doloremque sequi et ex ea repudiandae aliquam magni natus. Aliquam ipsum sed saepe quibusdam porro?
-            Quos sint architecto dolorem fuga? Sapiente, tempora alias nobis distinctio minima, tenetur exercitationem expedita asperiores suscipit iste deserunt quaerat repellat consequuntur laudantium, repellendus ratione perspiciatis unde magni fugiat! Magni, molestias!
-            Veritatis praesentium impedit tempore natus consequatur. Nihil itaque corporis officia, nesciunt architecto maxime incidunt excepturi ad reiciendis! Distinctio rem voluptate minus sed ipsum quo laborum. Totam tempora explicabo deleniti ex?
-            Ut enim dicta voluptates rem debitis totam officia. Laudantium, reprehenderit voluptatibus nobis, rem blanditiis praesentium tenetur corporis rerum corrupti quidem nisi, minus quod. Facere ipsa animi unde alias exercitationem. Eligendi?
-            Quia dolorum reprehenderit soluta ullam culpa id nemo voluptate fugiat nam, corporis quisquam placeat architecto harum distinctio expedita exercitationem inventore perspiciatis, dignissimos magnam laudantium iure ut et. Dolor, eum nam?
+            <section id="About" class="h-auto w-full pt-[50px] pl-[5%] pb-[10px] flex flex-col items-center lg:block">
+                <p class="h-auto w-[90%] md:w-[80%] lg:w-[70%] text-[48px] lg:text-[68px] text-center lg:text-start font-bold">Transforming Your Ideas into <span class="text-purple-500">Reality</span></p>
+                <p class="h-auto w-[90%] md:w-[80%] lg:w-[70%] text-[18px] text-center lg:text-start">Passionate about creating intuitive and engaging user experiences.<br> Specialize in transforming ideas into beautifully crafted products.</p>
+                <div id="showcase-box" class="h-auto w-[90%] md:w-[80%] lg:w-[70%]  flex justify-center lg:justify-start">
+                    <div class="showcase-box w-[110px] pt-[20px]">
+                        <b class="text-[60px]">+10</b><br><p class="text-[18px] text-start">Completed Project</p>
+                    </div>
+                    <div class="showcase-box w-[110px] ml-[20px] pt-[20px]">
+                        <b class="text-[60px]">2</b><br><p class="text-[18px] text-start">Worldwide Client</p>
+                    </div>
+                </div>
+                <div id="about-lower" class="h-auto w-[90%] md:w-[80%] lg:w-[70%] flex items-center justify-center lg:justify-start mt-[25px]">
+                    <div id="talk-button" class="h-[45px] w-[150px] rounded-[10px] bg-[#8b48e8]">
+                        <a href="#" class="h-[100%] w-[100%] flex justify-center items-center text-[14px]">Let's Talk</a>
+                    </div>
+                    <div id="talk-button" class="h-[45px] w-[150px] rounded-[10px] hover:text-[#8b48e8] text-[14px] hover:text-[16px] ml-[5px]">
+                        <a href="#" class="h-[100%] w-[100%] flex justify-center items-center">My Work <span class="ml-[10px]"><i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></span></a>
+                    </div>
+                </div>
+            </section>
          </div>
     </main>
 </body>
