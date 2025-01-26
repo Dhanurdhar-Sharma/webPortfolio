@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/57f27d3c4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="..\static\css\style_1.css">
     <title>Dhanurdhar</title>
 </head>
 <body class="h-auto lg:h-screen w-[100%] overflow-y-scroll lg:overflow-y-hidden">
     <main class="h-full w-[100%] bg-black text-white block lg:flex lg:flex-row ">
-        <div id="nav-bar1" class="lg:hidden h-[48px] md:h-[60px] w-[84%] rounded-[10px] fixed left-[8%] top-[25px] flex justify-around items-center">
-            <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                <i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
-            </div>
-          <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                <i class="fa-brands fa-google-scholar fa-xl" style="color: #ffffff;"></i>
-            </div>
-            <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                <i class="fa-solid fa-wrench fa-xl" style="color: #ffffff;"></i>
-            </div>
-            <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                <i class="fa-solid fa-briefcase fa-xl" style="color: #fcfcfd;"></i>
-            </div>
-            <div class="h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
-            </div>
+        <div id="nav-bar1" class="lg:hidden h-[48px] md:h-[60px] w-[84%] rounded-[10px] fixed z-[2] left-[8%] top-[25px] flex justify-around items-center">
+            <a href="#Home" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[35px]">house</i>
+            </a>
+            <a href="#About" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[35px]">person</i>
+            </a>
+            <a href="#Education" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[35px]">history_edu</i>
+            </a>
+            <a href="#Skills" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[30px]">build</i>
+            </a>
+            <a href="#Projects" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[35px]">business_center</i>
+            </a>
+            <a href="" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                <i class="material-icons  text-[30px]">mail</i>
+            </a>
         </div>
         <div id="left-main" class=" flex pt-[50px] md:block justify-center items-center h-[600px] md:h-[800px] lg:h-[100%] w-[100%] md:w-[100%] lg:w-[35%]">
             <div id="box" class="h-[90%] w-[80%] md:w-[95%] lg:w-[70%] rounded-[10px] sticky md:top-[15%] md:left-[2.5%] lg:left-[10%] flex flex-col">
@@ -38,10 +42,10 @@
                         <p>Software Engineer | Web Developer <br> Jaipur,Rajasthan, India
                         </p>
                         <div id="social-box" class="h-[35%] w-[70%] md:w-[50%] flex justify-around pt-[20px]">
-                            <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></a>
-                            <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+                            <a href="https://www.linkedin.com/in/dhanurdhar-sharma/" target="_blank" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></a>
+                            <a href="https://github.com/Dhanurdhar-Sharma" target="_blank" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
                             <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff;"></i></a>
-                            <a href="#" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i></a>
+                            <a href="mailto:dhanurdhar1724@gmail.com" class="h-[90%] w-[22%] flex justify-center items-center decoration-none"><i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i></a>
                         </div>
                     </div> 
                     <div id="resume-section" class="h-[40%] w-full flex items-center justify-center">
@@ -51,22 +55,25 @@
             </div>
         </div>
         <div id="right-main" class="text-center h-auto  md:h-[100%] w-[100%] lg:w-[65%] lg:overflow-y-scroll">
-            <div id="nav-bar" class="hidden md:hidden lg:flex  h-[50px] w-[360px] rounded-[10px] sticky left-[10%] top-[25px] justify-around items-center">
-                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                    <i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
-                </div>
-              <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                    <i class="fa-brands fa-google-scholar fa-xl" style="color: #ffffff;"></i>
-                </div>
-                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                    <i class="fa-solid fa-wrench fa-xl" style="color: #ffffff;"></i>
-                </div>
-                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                    <i class="fa-solid fa-briefcase fa-xl" style="color: #fcfcfd;"></i>
-                </div>
-                <div class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
-                    <i class="fa-regular fa-envelope fa-xl" style="color: #ffffff;"></i>
-                </div>
+            <div id="nav-bar" class="hidden md:hidden lg:flex z-[2] h-[50px] w-[360px] rounded-[10px] sticky left-[10%] top-[25px] justify-around items-center">
+                <a href="#Home" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[35px]">house</i>
+                </a>
+                <a href="#About" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[35px]">person</i>
+                </a>
+                <a href="#Education" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[35px]">history_edu</i>
+                </a>
+                <a href="#Skills" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[30px]">build</i>
+                </a>
+                <a href="#Projects" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[35px]">business_center</i>
+                </a>
+                <a href="" class="nav-box h-[90%] w-[16%] rounded-[10px] flex justify-center items-center relative">
+                    <i class="material-icons  text-[30px]">mail</i>
+                </a>
             </div>
             <section id="Home" class="h-auto w-full pt-[50px] pl-[5%] pb-[30px] flex flex-col items-center lg:block">
                 <p class="h-auto w-[90%] md:w-[80%] lg:w-[70%] text-[48px] lg:text-[68px] text-center lg:text-start font-bold">Transforming Your Ideas into <span class="text-purple-500">Reality</span></p>
@@ -84,7 +91,7 @@
                         <a href="#" class="h-[100%] w-[100%] flex justify-center items-center text-[14px]">Let's Talk</a>
                     </div>
                     <div id="work-button" class="h-[45px] w-[150px] rounded-[10px] hover:text-[#8b48e8] text-[14px] hover:text-[16px] ml-[5px]">
-                        <a href="#" class="h-[100%] w-[100%] flex justify-center items-center">My Work <span class="ml-[10px]"><i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></span></a>
+                        <a href="#Projects" class="h-[100%] w-[100%] flex justify-center items-center">My Work <span class="ml-[10px]"><i class="fa-solid fa-arrow-right fa-lg" style="color: #ffffff;"></i></span></a>
                     </div>
                 </div>
             </section>
@@ -175,6 +182,52 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="Projects" class="h-auto w-full pt-[50px] pl-[5%] pb-[20px] flex flex-col items-center lg:block">
+    <p class="h-auto w-[90%] md:w-[80%] lg:w-[80%] text-[48px] lg:text-[64px] text-center lg:text-start font-bold">Recent Projects and <span class="text-purple-500">Achivements</span></p>
+    <div id="project-showcase-box" class="h-auto w-[90%] md:w-[90%] lg:w-[70%] mt-[15px] flex flex-col justify-around">
+        <div class="project-showcase-row h-auto w-[100%] flex flex-col md:flex-row lg:flex-row xl-flex-row  items-center justify-around ">
+            <a href="#" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="..\static\images\medical.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">MediQ</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Online Medical Shop</p>
+                </div>
+            </a>
+            <a href="#" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="..\static\images\lms.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">LMS</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Smarter way to manage Library</p>
+                </div>
+            </a>
+        </div>
+        <div class="project-showcase-row h-auto w-[100%] mt-[15px] flex flex-col md:flex-row lg:flex-row xl-flex-row items-center justify-around">
+            <a href="#" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group mb-[10px] md:mb-[0px] lg:mb-[0px] xl:mb-[0px]">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="..\static\images\iot.jpg"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">SHM</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Smart Home Maker</p>
+                </div>
+            </a>
+            <a href="#" class="project-box h-[300px] w-[300px] bg-[#2c2d2f] rounded-[15px] flex flex-col group">
+                <div class="project-img-box h-[70%] w-full rounded-t-[16px] overflow-hidden bg-pink-400">
+                    <img src="..\static\images\web1.png"  class="h-[100%] w-[100%] transform transition-transform duration-300 ease-in-out group-hover:scale-[110%] " alt="project-image">
+                </div>
+                <div class="project-discription-box h-[30%] w-full rounded-b-[16px] text-start">
+                    <b class="text-[24px] group-hover:text-purple-500 ml-[15px] mt-[10px]">Web Portfolio</b>
+                    <p class="text-[16px] text-gray-300 ml-[15px]">Light Theme Portfolio Design</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    
             </section>
          </div>
     </main>
